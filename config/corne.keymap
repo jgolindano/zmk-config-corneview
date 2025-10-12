@@ -35,9 +35,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB         &kp N1         &kp N7        &kp N8        &kp N9        &kp N5       &kp N6    &kp N7    &kp UP_ARROW  &kp N9     &kp LS(FSLH)  &kp BSPC
-&kp LEFT_SHIFT  &kp N0         &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp F5       &kp LEFT  &kp LEFT  &kp DOWN      &kp RIGHT  &trans        &trans
-&kp LCTRL       &kp LESS_THAN  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans       &trans    &trans    &trans        &trans     &trans        &trans
+&kp TAB         &kp N1         &kp N7        &kp N8        &kp N9        &kp N5       &kp N6    &kp N7    &kp UP_ARROW  &kp N9     &kp MINUS  &kp BSPC
+&kp LEFT_SHIFT  &kp N0         &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp F5       &kp LEFT  &kp LEFT  &kp DOWN      &kp RIGHT  &trans     &trans
+&kp LCTRL       &kp LESS_THAN  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans       &trans    &trans    &trans        &trans     &trans     &trans
                                              &kp LGUI      &trans        &kp SPACE    &kp RET   &trans    &kp RALT
             >;
         };
@@ -50,10 +50,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB     &kp EXCL      &kp AT        &kp HASH      &kp DLLR      &kp PRCNT       &kp CARET  &kp N7        &kp N8        &kp N9        &kp RPAR  &kp BSPC
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp MINUS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp N0    &kp GRAVE
-&kp LCTRL   &trans        &trans        &trans        &trans        &trans          &kp UNDER  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PIPE  &kp TILDE
-                                        &kp LGUI      &trans        &kp SPACE       &kp RET    &trans        &kp RALT
+&kp TAB         &kp EXCL      &kp AT        &kp HASH      &kp DLLR      &kp PRCNT       &kp CARET  &kp N7        &kp N8        &kp N9        &kp UNDERSCORE  &kp BSPC
+&kp LEFT_SHIFT  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp MINUS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp N0          &kp GRAVE
+&kp LCTRL       &trans        &trans        &trans        &trans        &bt BT_CLR      &kp UNDER  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PIPE        &kp TILDE
+                                            &kp LGUI      &trans        &kp SPACE       &kp RET    &trans        &kp RALT
             >;
         };
     };
