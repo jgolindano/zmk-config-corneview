@@ -36,8 +36,8 @@
 
             bindings = <
 &kp TAB         &kp N1         &kp N7        &kp N8        &kp N9        &kp N5       &kp ASTERISK  &kp N7        &kp N8        &kp N9        &kp PLUS   &kp BSPC
-&kp LCTRL       &kp N0         &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp F5       &kp SLASH     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp N0     &kp PERCENT
-&kp LEFT_SHIFT  &kp LESS_THAN  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans       &kp COMMA     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS  &trans
+&kp LCTRL       &kp N0         &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp F5       &kp SLASH     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp N0     &kp SQT
+&kp LEFT_SHIFT  &kp NON_US_BACKSLASH  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans       &kp COMMA     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS  &trans
                                              &kp LGUI      &trans        &kp SPACE    &kp RET       &trans        &kp RALT
             >;
         };
